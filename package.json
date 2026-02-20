@@ -1,0 +1,14 @@
+{
+  "name": "agent-knowledge-base",
+  "version": "1.0.0",
+  "description": "Intelligent Knowledge Base",
+  "private": true,
+  "workspaces": ["packages/*", "services/*", "integrations/*"],
+  "scripts": {
+    "test": "npm test --workspaces --if-present",
+    "dev": "npm run dev --workspaces --if-present"
+  },
+  "keywords": ["agent", "ai", "search,qa,embedding,retrieval"],
+  "author": "Yoshi Kondo <yoshi@musicailab.com>",
+  "license": "MIT"
+}
